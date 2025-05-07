@@ -3,7 +3,8 @@ import type { RouteRecordRaw } from 'vue-router'
 import useSettingsStore from '@/store/modules/settings'
 import generatedRoutes from 'virtual:generated-pages'
 import { setupLayouts } from 'virtual:meta-layouts'
-import MultilevelMenuExample from './modules/multilevel.menu.example'
+import Ceshi from './modules/ceshi'
+import MultilevelMenuExample from './modules/multilevel'
 
 // 固定路由（默认路由）
 const constantRoutes: RouteRecordRaw[] = [
@@ -66,6 +67,7 @@ const asyncRoutes: Route.recordMainRaw[] = [
     },
     children: [
       MultilevelMenuExample,
+      Ceshi,
     ],
   },
 ]

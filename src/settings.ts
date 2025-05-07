@@ -9,6 +9,7 @@ const globalSettings: Settings.all = {
   },
   menu: {
     mode: 'single',
+    enableSubMenuCollapseButton: true,
   },
   copyright: {
     enable: true,
